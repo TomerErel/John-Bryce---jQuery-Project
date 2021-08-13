@@ -97,7 +97,7 @@ function cardsView(coinsData) {
                                 <div class="card-text">${coin.name}</div>
 
                                 <divid="moreInfoContainer-${coin.id}">
-                                    <button class="btn btn-warning" type="button" data-bs-toggle="collapse"
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#moreInfoContainer-${coin.id}" aria-expanded="false" aria-controls="collapseExample" onclick="moreInfo('${coin.id}')">
                                         More Info
                                     </button>
