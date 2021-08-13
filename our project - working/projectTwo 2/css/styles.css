@@ -1,0 +1,68 @@
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+#navbar {
+    flex-shrink: inherit;
+    height: auto;
+}
+/* 
+#carouselExampleFade {
+    display: none; 
+    
+} */
+
+.coinsSelected {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-right: 10%;
+}
+
+#homeContainer {
+ display: flex;
+ flex-wrap: wrap;
+ padding: 15px;
+ justify-content: center;
+}
+
+.card{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10%;
+    animation: fadeIn 1.7s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+    
+.card-body {
+    display: flex;
+    margin: 15px;
+    box-lines: solid;
+   
+}
+
+
+.card-text {
+  font-weight: bold;
+  display: flex;
+  justify-content: left;
+  margin: 10px;
+  align-items: left;
+}
+
+
+.upperCardContainer {
+    display: flex;
+    flex-direction: s
+}
